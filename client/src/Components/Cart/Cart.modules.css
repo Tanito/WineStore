@@ -1,0 +1,139 @@
+.products {
+    width: 60rem;
+    padding: 2rem
+}
+
+.productCart {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+}
+
+.imageProductCart {
+    width: 8rem;
+}
+
+.subtotal {
+    font-size: 0.7rem;
+}
+
+.button {
+    height: 2rem;
+    width: 2rem;
+}
+
+.MuiButton-text {
+    padding: 0 !important;
+}
+
+.MuiButton-root {
+    min-width: 1rem !important;
+}
+
+.ShoppingCart {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    background-color: white;
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ShoppingCartEmpty {
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    background-color: white;
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.Summary {
+    align-content: center;
+    font-size: 0.8rem;
+    height: 9rem;
+}
+
+.infoProduct {
+    text-align: left;
+    flex-direction: row;
+    width: 50rem;
+    justify-content: space-around;
+}
+
+.quantity {
+    text-align: right;
+}
+
+.input {
+    width: 2rem;
+    text-align: center;
+    border: none;
+}
+
+.line {
+    color: rgb(175, 167, 167);
+}
+
+.lineEmpty {
+    color: gray;
+    margin-left: 0rem;
+    margin-right: 2rem;
+}
+
+.titleCart {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.detail {
+    padding: 2rem 2rem 2rem 1rem;
+}
+
+.imgCartEmpty {
+    height: 25rem;
+}
+
+.buttonCart {
+    margin: 0.5rem !important;
+}
+
+.btnEliminar {
+    height: 30px;
+    width: 30px;
+}
+.Cart__Cargando{
+    margin: 0px;
+    padding-top: 300px;
+    color: blue;
+    font-size: 50px;
+}
+.Cart__DeleteProduct{
+    text-decoration: none;
+    color: brown;
+}
+#subtotal{
+    font-size: 1.1rem;
+}
+#iva{
+    font-size: 1rem;
+}
+#total{
+    font-size: 1.5rem;
+}
+
+#cancelBtn{
+    color: #ca6049;
+}
+
+#confirmBtn{
+    color:  #47a260 ;
+}

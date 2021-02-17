@@ -1,0 +1,14 @@
+.Payments__image {
+    width: 7rem;
+}
+
+.pagos {
+    display: grid;
+    margin: 0rem 10rem;
+    padding: 7rem !important;
+}
+
+#panelPago {
+    padding: 10rem;
+    margin: 0rem 4rem;
+}

@@ -1,0 +1,58 @@
+.checkbox {
+    color: #be9063 !important;
+}
+
+.data {
+    text-align: left;
+    padding: 0rem 1rem;
+}
+
+.edit {
+    padding: 0rem 0.5rem;
+}
+
+.formUser1 {
+    width: 60% !important;
+    padding-top: 2rem !important;
+}
+
+.emptyOrders1{
+    padding-top: 5rem !important;
+    margin-top: 0px !important;
+}
+
+.info {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    width: 60%;
+    background-color: #eccba9;
+}
+
+.orders {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ordersInfo {
+    width: 90%;
+}
+
+.personalInfo {
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 2rem 2rem 2rem !important;
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+.Table__Container{
+    padding-top: 2rem;
+}
+
+#formularioUsuario{
+    padding-top: 2rem;
+}

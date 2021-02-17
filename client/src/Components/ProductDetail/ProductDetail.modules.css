@@ -1,0 +1,75 @@
+.ProductDetail__Container {
+  padding-top: 10rem;
+}
+
+.ProductDetail__containerCargando {
+  margin: 0px;
+  padding-top: 200px;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  color: white;
+}
+
+.ProductDetail__Paper {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  background-color: #525b56 !important;
+  border-radius: 50px !important;
+}
+
+#prodImg {
+  height: 300px;
+  width:300px;
+  border-radius: 20px !important;
+}
+
+#prodInfo {
+  border-radius: 20px !important;
+  height: 80%;
+}
+
+#imgContainer {
+ height: 70%;
+ width: 30%;
+}
+
+#detailsContainer{
+  min-height: 24rem !important;
+}
+#paper {
+  width: 90%;
+  height: 90%;
+  background-color: white !important;
+}
+
+#pageContainer {
+  height: 80%;
+  width: 90%;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#backButton {
+  height: 40px;
+  width: 100px;
+  
+}
+
+#backButtonImage {
+  height: 40px;
+  width: 40px;
+  padding-right: 3px;
+  
+}
+
+#editImage{
+  height: 40px;
+  width: 40px;
+  padding-right: 3px;
+}

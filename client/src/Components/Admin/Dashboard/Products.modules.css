@@ -1,0 +1,16 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#btnCargar{
+  background-color: #be9063 !important;
+  height: 40px;
+  width: 100px;
+
+}

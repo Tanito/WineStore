@@ -1,0 +1,67 @@
+#checkbox {
+    justify-self: center;
+}
+
+#dashboard {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-container-usuarios {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+.list {
+    display: flex;
+    height: 1rem !important;
+    font-size: 1rem !important;
+    text-transform: capitalize !important;
+}
+
+#lateral{
+    /* margin-top: 6vh; */
+    display: inline-grid;
+    flex-direction: column;
+    padding: 6rem 0rem 0rem 1rem;
+    /* width: 20rem; */
+    width: 20%;
+    border: solid 2px;
+    height: 89%;
+    position: relative;
+    position: fixed;
+    /* position: absolute; */
+    justify-items: left;
+}
+
+#menu {
+    padding-top: 5rem;
+    margin-left: 20%;
+    /* padding-top: 5%; */
+    padding-left: 2%;
+    /* width: 79rem; */
+    width: 80%;
+    height: 100rem;
+    position: relative;
+    position: fixed;
+    border: solid 2px;
+    overflow: scroll;
+}
+
+#ordersFilter {
+    display: flex;
+    flex-direction: column;
+}
+
+.toolBar{
+    background-color: black !important;
+}
+
+#form {
+    padding-top: 20%;
+}
+
+.imgAdmin {
+    height: 17rem;
+    width: auto;
+}

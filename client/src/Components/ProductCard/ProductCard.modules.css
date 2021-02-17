@@ -1,0 +1,75 @@
+
+.ProCard__img {
+  width: 100%;
+  background-color: rgb(17, 16, 16);
+  border-radius: 47%;
+  image-rendering: -webkit-optimize-contrast;
+  /* image-rendering: -moz-crisp-edges; */
+}
+
+.ProCards_Card {
+  margin: 2rem 1rem 2rem 1rem;
+  width: 18rem !important;
+  background: #f7f8ffa8 !important;
+  padding-top: 1rem;
+  border: solid black;
+  display: inline-block;
+}
+.ProCards_Card:hover {
+  margin: 2rem 1rem 2rem 1rem;
+  width: 18rem !important;
+  background-color: white !important;
+  opacity: 85%;
+  transition: all 550ms ease-in-out;
+}
+
+.ProCard__Container {
+  height: 3.5rem;
+  
+}
+#Button__Card {
+  justify-content: center;
+}
+#Button__Base {
+  margin: auto;
+}
+
+#Button__Buy{
+  background-color: #be9063 !important;
+  height: 40px;
+  width: 100px;
+
+}
+
+#Button__Buy:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+}
+
+#buttonsContainer{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#Button__Info{
+  background-color: rgb(165, 163, 163) !important;
+  height: 40px;
+  width: 100px;
+}
+
+#Button__Info:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+}
+
+h4 {
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
+}
+
+.ProCard__opacidad {
+  padding: 16px 70px 5px 70px !important;
+}

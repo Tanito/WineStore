@@ -1,0 +1,23 @@
+.OrderDetail__Container{
+    padding-top: 10rem;
+    background-size: contain;
+    display: none;
+
+}
+.OrderDetail__Text{
+margin: 0px;
+color: rgb(17, 17, 17);
+list-style: none;
+width: 20%;
+
+}
+.OrderDetail__li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    border-bottom: 0.1rem solid gray;
+    border-top: 0.1rem solid gray;
+    background-color: #be90639e;
+    margin: 5px;
+}

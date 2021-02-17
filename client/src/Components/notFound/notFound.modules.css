@@ -1,0 +1,10 @@
+.notFound {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 15rem;
+  padding-bottom: 12rem;
+  margin-left: 20%;
+  color: gray;
+}

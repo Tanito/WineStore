@@ -1,0 +1,34 @@
+.Catalogue__Div {
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 4.4rem;
+  margin-left: 13%;
+  margin-right: 2%;
+  color: white;
+  width: 100%;
+}
+
+.Catalogue__container {
+  display: flex;
+  background-image: url('https://www.freepik.es/foto-gratis/bodega_7678543.htm#page=1&query=bodega&position=16');
+  background-size: cover;
+}
+
+.Catalogue__containerCargando {
+  margin: 0px;
+  padding-top: 200px;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  color: white;
+}
+.Catalogue__Pagination {
+  width: fit-content;
+  margin-inline: auto;
+}
+.Catalogue__Pagination nav ul li button{
+  background-color: #f7f7f7 !important;
+}

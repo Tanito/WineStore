@@ -1,0 +1,38 @@
+.CatalogueByTaste__Div{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 4.4rem;
+    margin-left: 13%;
+    margin-right: 2%;
+    color: white;
+    width: 100%;
+}
+.CatalogueByTaste__text{
+    color:white;
+    margin: auto;
+}
+.CatalogueByTaste__container{
+    display: flex;
+    background-image: url('https://image.freepik.com/foto-gratis/bodega_181624-1264.jpg%27');
+    background-size: cover;
+  
+}
+
+.CatalogueByTaste__containerCargando{
+    margin: 0px ;
+    margin-left: 17%;
+    padding-top: 200px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    color: white;
+}
+.CatalogueByTaste__Pagination {
+    width: fit-content;
+    margin-inline: auto;
+}
+.CatalogueByTaste__Pagination nav ul li button{
+    background-color: #f7f7f7 !important;
+  }

@@ -1,0 +1,31 @@
+.MuiButton-containedPrimary {
+  background-color: #be9063 !important;
+}
+
+button > * {
+  pointer-events: none;
+  }
+
+#contenedor {
+  padding-top: 5rem !important;
+}
+
+#barraSuperior{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 40%;
+}
+
+#backButton{
+  display: flex;
+  align-items: flex-start;
+}
+
+#titleH1{
+  justify-content: center;
+  background-color: white !important;
+  color: black !important ;
+
+}

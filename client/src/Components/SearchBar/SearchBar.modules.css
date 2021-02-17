@@ -1,0 +1,57 @@
+.SearchBar__form {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem !important;
+  color: white;
+}
+.SearchBar__form div div input {
+  background-color: rgb(10, 10, 10);
+  border: none;
+  border-bottom: 0.1rem solid white;
+  border-right: 0.1rem solid white;
+  border-radius: 3%;
+  color: white;
+  padding: 2px;
+  margin-bottom: 13px;
+  margin-right: 13px;
+}
+.MuiInput-colorSecondary.MuiInput-underline:after {
+  border-bottom-color: #be9063 !important;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+}
+
+#btnSB {
+  background-color: #be9063;
+  color: black !important;
+  margin: 5px;
+  width: 100px;
+  border-radius: 25px;
+}
+
+#standard-secondary {
+  height: 30px;
+  background-color: #525b56;
+}
+
+#standard-secondary :active {
+  border: 0.2rem solid #be9063 !important;
+}
+
+@media screen and (max-width: 1000px) {
+  #standard-secondary {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #standard-secondary {
+    width: 70%;
+  }
+  .searchBar {
+    width: 40%;
+  }
+}

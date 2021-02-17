@@ -1,0 +1,41 @@
+.done {
+    /* color: white; */
+    color: black;
+    width: 0.8rem !important;
+}
+
+.OrderTable__Container{
+    /* padding-top: 10rem; */
+    background-size: contain;
+}
+
+.OrderTable__Text{
+margin: 0rem;
+/* color: white; */
+color: black;
+list-style: none;
+width: 20%;
+display: inline
+}
+
+.OrderTable__li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.OrderTable__index{
+    margin: 0rem;
+    /* color: white; */
+    color: black;
+    list-style: none;
+    width: 20%;
+    font-weight: bold;
+    padding: 1rem 0rem;
+    /* border-bottom: 0.1rem solid white; */
+    border-bottom: 0.1rem solid rgb(0, 0, 0);
+    /* border-top: 0.1rem solid white; */
+    border-top: 0.1rem solid rgb(0, 0, 0);
+    display: inline
+    }
